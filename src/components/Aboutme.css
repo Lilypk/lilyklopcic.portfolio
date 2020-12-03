@@ -24,6 +24,32 @@
   font-size: 30px;
 }
 
+.javascript {
+  height: 35px;
+  width: 35px;
+  padding-right: 15px;
+}
+.python {
+  height: 35px;
+  width: 35px;
+  padding-right: 15px;
+}
+.express {
+  height: 60px;
+  width: 60px;
+  padding-right: 15px;
+}
+.django {
+  height: 35px;
+  width: 35px;
+  padding-right: 15px;
+}
+.reac {
+  height: 35px;
+  width: 35px;
+  padding-right: 15px;
+}
+
 @media screen and (max-width: 650px) {
   .bio {
     font-size: 10px;
