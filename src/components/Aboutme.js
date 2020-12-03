@@ -5,7 +5,7 @@ import Headshot from "../images/headshot.png";
 class Aboutme extends Component {
   render() {
     return (
-      <div className="header">
+      <div className="aboutmesection">
        
         <h5 className="bio">
         <h5 className='aboutme'>About Me</h5>
