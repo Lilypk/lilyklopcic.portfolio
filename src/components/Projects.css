@@ -1,0 +1,35 @@
+.bodyworks {
+  height: 300px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+.bodyworks:hover {
+  width: 460px;
+  height: 310px;
+  cursor: pointer;
+}
+.projectsDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 30px;
+}
+.project {
+  font-size: 30px;
+ 
+}
+@media screen and (max-width: 650px) {
+  .bodyworks {
+    height: 140px;
+    width: 170px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .project {
+    font-size: 25px;
+  }
+}

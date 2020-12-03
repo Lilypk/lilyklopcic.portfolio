@@ -1,0 +1,35 @@
+.headshot {
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  height: 261px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-color: 10px solid black;
+}
+.bio {
+  font-family: arial;
+  font-size: 20px;
+  line-height: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.aboutme {
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 30px;
+}
+@media screen and (max-width: 650px) {
+  .bio {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .aboutme {
+    font-size: 25px;
+  }
+}

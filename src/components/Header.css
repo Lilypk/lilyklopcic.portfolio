@@ -1,0 +1,68 @@
+.header {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+  font-family: "Bilbo Swash Caps", cursive;
+}
+
+.linkedin {
+  width: 25px;
+  height: 25px;
+  margin-top: 120px;
+  border-radius: 20px;
+ 
+}
+.linkedin:hover {
+  width: 43px;
+  height: 43px;
+  cursor: pointer;
+}
+.github {
+  width: 25px;
+  height: 25px;
+  margin-top: 120px;
+  padding-left: 8px;
+}
+.github:hover {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.resume {
+  width: 25px;
+  height: 25px;
+  margin-top: 120px;
+  padding-left: 10px;
+}
+.resume:hover {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+@media screen and (max-width: 650px) {
+  .header {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .linkedin {
+    height: 15px;
+    width: 15px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .github {
+    height: 15px;
+    width: 15px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .resume {
+    height: 15px;
+    width: 15px;
+  }
+}
+
