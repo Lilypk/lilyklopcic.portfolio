@@ -1,7 +1,7 @@
 import "./Aboutme.css";
 import React, { Component } from "react";
 import Headshot from "../images/headshot.png";
-
+import HtCs from '../images/html_css.png';
 class Aboutme extends Component {
   render() {
     return (
@@ -21,7 +21,7 @@ class Aboutme extends Component {
           upbringing to the tech industry and contribute to a new wave of
           invention in art, technology, and culture.
         </h5>
-        
+       
       </div>
 
     );

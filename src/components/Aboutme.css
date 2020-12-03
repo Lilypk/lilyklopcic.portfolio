@@ -23,6 +23,7 @@
   font-family: "Bilbo Swash Caps", cursive;
   font-size: 30px;
 }
+
 @media screen and (max-width: 650px) {
   .bio {
     font-size: 10px;
