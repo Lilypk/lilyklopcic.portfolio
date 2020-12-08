@@ -1,11 +1,7 @@
 import "./Aboutme.css";
 import React, { Component } from "react";
 import Headshot from "../images/headshot.png";
-import Javascript from "../images/javascript.png";
-import Python from "../images/python.png";
-import Express from "../images/express.svg";
-import Django from "../images/django.png";
-import Reac from "../images/react.png";
+
 class Aboutme extends Component {
   render() {
     return (
@@ -23,13 +19,7 @@ class Aboutme extends Component {
           detail and fine aesthetic, her goal is to take the experiences of her
           upbringing to the tech industry and contribute to a new wave of
           invention in art, technology, and culture.
-          <div><h4 className='aboutme'>My Skills</h4>
-          <img className="javascript" src={Javascript} />
-          <img className="python" src={Python} />
-          <img className="express" src={Express} />
-          <img className="django" src={Django} />
-          <img className="reac" src={Reac} />
-          </div>
+          
         </h5>
       </div>
     );
