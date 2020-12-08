@@ -1,10 +1,11 @@
 .bodyworks {
-  height: 300px;
-  width: 350px;
+  height: 200px;
+  width: 250px;
   display: flex;
   justify-content: center;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  margin-bottom: 20px;
 }
 .middle {
   transition: 0.5s ease;
@@ -39,8 +40,14 @@
   font-family: "Bilbo Swash Caps", cursive;
   font-size: 30px;
 }
+.projectsrow {
+  display: flex;
+  flex-direction: row;
+}
 .project {
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .projectdescription {
   font-family: "Abel", sans-serif;
@@ -62,5 +69,10 @@
 @media screen and (max-width: 650px) {
   .project {
     font-size: 25px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .projectdescription {
+    font-size: 15px;
   }
 }

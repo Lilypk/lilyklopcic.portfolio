@@ -30,7 +30,7 @@ class Projects extends Component {
       <div className="projectsDiv">
         <h5 className='project'>Projects</h5>
       
-       
+       <div className='projectsrow'>
          <a onClick={openBodyworksNewTab}>
           <img className="bodyworks" src={Bodyworks} alt="BodyWorks Project" />
         </a> 
@@ -38,8 +38,8 @@ class Projects extends Component {
        <a onClick={openBodyworksRepoNewTab}>
        <button className='repolink'>Link to Repo</button>
         </a>  </h5>
-
-
+</div>
+<div className='projectsrow'>
         <a onClick={openSimonsNewTab}>
           <img className="bodyworks" src={Simon} alt="Simon Project" />
         </a> 
@@ -48,7 +48,7 @@ class Projects extends Component {
        <a onClick={openSimonRepoNewTab}>
        <button className='repolink'>Link to Repo</button>
         </a>  </h5>
-
+</div>
 
 
 
