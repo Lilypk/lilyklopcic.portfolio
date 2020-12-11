@@ -4,7 +4,7 @@ import "./Header.css";
 import Linkedin from "../images/linkedin.png";
 import Github from "../images/github.png";
 import Resume from "../images/resume.png";
-
+import Gmail from '../images/gmail.png'
 class Header extends Component {
   render() {
     function openLinkedinNewTab() {
@@ -40,6 +40,7 @@ class Header extends Component {
         <a onClick={openResumeNewTab}>
           <img className="resume" src={Resume} alt="Resume" />
         </a>
+        <a><img className='gmail'src={Gmail}/></a>
       </div>
     );
   }

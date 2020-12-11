@@ -42,6 +42,18 @@
   height: 45px;
   cursor: pointer;
 }
+.gmail {
+  width: 25px;
+  height: 25px;
+  margin-top: 120px;
+  padding-left: 10px;
+}
+.gmail:hover {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 650px) {
   .header {
     font-size: 20px;
@@ -61,6 +73,12 @@
 }
 @media screen and (max-width: 650px) {
   .resume {
+    height: 15px;
+    width: 15px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .gmail {
     height: 15px;
     width: 15px;
   }
