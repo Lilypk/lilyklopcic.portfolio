@@ -40,7 +40,10 @@ class Header extends Component {
         <a onClick={openResumeNewTab}>
           <img className="resume" src={Resume} alt="Resume" />
         </a>
-        <a><img className='gmail'src={Gmail}/></a>
+        <div className='tooltip'>
+           <a><img className='gmail'src={Gmail}/></a>
+            <span class="tooltiptext">lilyklopcic@gmail.com</span>
+            </div>
       </div>
     );
   }
