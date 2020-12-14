@@ -40,6 +40,10 @@
   font-family: "Bilbo Swash Caps", cursive;
   font-size: 30px;
 }
+.projectsDivDescrip {
+  font-size: 20px;
+  font-family: 'Abel', sans-serif;
+}
 .projectsrow {
   display: flex;
   flex-direction: row;
@@ -67,29 +71,29 @@
   justify-content: center;
 }
 .javascript {
-  height: 25px;
-  width: 25px;
-  padding-right: 15px;
+  height: 40px;
+  width: 40px;
+  padding-right: 30px;
 }
 .python {
-  height: 25px;
-  width: 25px;
-  padding-right: 15px;
+  height: 40px;
+  width: 40px;
+  padding-right: 30px;
 }
 .express {
-  height: 50px;
-  width: 50px;
-  padding-right: 15px;
+  height: 70px;
+  width: 70px;
+  padding-right: 30px;
 }
 .django {
-  height: 25px;
-  width: 25px;
-  padding-right: 15px;
+  height: 40px;
+  width: 40px;
+  padding-right: 30px;
 }
 .reac {
-  height: 25px;
-  width: 25px;
-  padding-right: 15px;
+  height: 40px;
+  width: 40px;
+  padding-right: 30px;
 }
 @media screen and (max-width: 650px) {
   .project {
@@ -112,3 +116,9 @@
     width: 110px;
   }
 }
+@media screen and (max-width: 650px) {
+  .projectsDivDescrip {
+    font-size: 10px;
+  }
+}
+

@@ -4,7 +4,7 @@ import "./Header.css";
 import Linkedin from "../images/linkedin.png";
 import Github from "../images/github.png";
 import Resume from "../images/resume.png";
-import Gmail from '../images/gmail.png'
+import Gmail from '../images/emaillogo.png'
 class Header extends Component {
   render() {
     function openLinkedinNewTab() {

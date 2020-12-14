@@ -33,12 +33,13 @@ class Projects extends Component {
       
       <div className="projectsDiv">
         <div className='skills'><h4 className='myskills'>My Skills</h4>
-          <img className="javascript" src={Javascript} />
+          <img className="javascript" src={Javascript} /> 
           <img className="python" src={Python} />
           <img className="express" src={Express} />
           <img className="django" src={Django} />
           <img className="reac" src={Reac} />
           </div>
+          <div className='projectsDivDescrip'>JavaScript - Python - Express - Django - React</div>
         <h5 className='project'>Projects</h5>
       
        <div className='projectsrow'>
