@@ -103,6 +103,7 @@
 @media screen and (max-width: 650px) {
   .projectdescription {
     font-size: 10px;
+    margin-right: 20px;
   }
 }
 @media screen and (max-width: 650px) {
