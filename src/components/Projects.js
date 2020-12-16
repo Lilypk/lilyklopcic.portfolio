@@ -7,6 +7,7 @@ import Python from "../images/python.png";
 import Express from "../images/express.svg";
 import Django from "../images/django.png";
 import Reac from "../images/react.png";
+import Daydoodle from '../images/daydoodle.png'
 class Projects extends Component {
   render() {
     function openBodyworksNewTab() {
@@ -29,6 +30,16 @@ class Projects extends Component {
       var win = window.open(simonRepoUrl, "_blank");
       win.focus();
     }
+    function openDaydoodleNewTab() {
+      const daydoodleUrl = "daydoodle.netlify.app";
+      var win = window.open(daydoodleUrl, "_blank");
+      win.focus();
+    }
+    function openDaydoodleRepoNewTab() {
+      const daydoodleRepoUrl = "https://github.com/Lilypk/drawingappreact";
+      var win = window.open(daydoodleRepoUrl, "_blank");
+      win.focus();
+    }
     return (
       
       <div className="projectsDiv">
@@ -41,7 +52,18 @@ class Projects extends Component {
           </div>
           <div className='projectsDivDescrip'>JavaScript - Python - Express - Django - React</div>
         <h5 className='project'>Projects</h5>
-      
+
+        <div className='projectsrow'>
+        <a onClick={openDaydoodleNewTab}>
+          <img className="bodyworks" src={Daydoodle} alt="Daydoodle Project" />
+        </a> 
+       <h5 className='projectdescription'>DAYDOODLE is an application to create using Canvas and MERN Stack.
+ 
+       <a onClick={openDaydoodleRepoNewTab}>
+       <button className='repolink'>Link to Repo</button>
+        </a>  </h5>
+</div>
+
        <div className='projectsrow'>
          <a onClick={openBodyworksNewTab}>
           <img className="bodyworks" src={Bodyworks} alt="BodyWorks Project" />
@@ -51,6 +73,7 @@ class Projects extends Component {
        <button className='repolink'>Link to Repo</button>
         </a>  </h5>
 </div>
+
 <div className='projectsrow'>
         <a onClick={openSimonsNewTab}>
           <img className="bodyworks" src={Simon} alt="Simon Project" />
@@ -61,6 +84,7 @@ class Projects extends Component {
        <button className='repolink'>Link to Repo</button>
         </a>  </h5>
 </div>
+
 
 
       </div>
