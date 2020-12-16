@@ -31,12 +31,12 @@ class Projects extends Component {
       win.focus();
     }
     function openDaydoodleNewTab() {
-      const daydoodleUrl = "daydoodle.netlify.app";
+      const daydoodleUrl = "https://daydoodle.netlify.app";
       var win = window.open(daydoodleUrl, "_blank");
       win.focus();
     }
     function openDaydoodleRepoNewTab() {
-      const daydoodleRepoUrl = "https://github.com/Lilypk/drawingappreact";
+      const daydoodleRepoUrl = "https://github.com/Lilypk/daydoodle";
       var win = window.open(daydoodleRepoUrl, "_blank");
       win.focus();
     }
