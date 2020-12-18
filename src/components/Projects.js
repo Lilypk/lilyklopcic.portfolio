@@ -61,7 +61,7 @@ class Projects extends Component {
  
        <a onClick={openDaydoodleRepoNewTab}>
        <button className='repolink'>Link to Repo</button>
-        </a>  </h5>
+        </a> <h7>(Work in progress)</h7></h5>
 </div>
 
        <div className='projectsrow'>
